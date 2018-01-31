@@ -5,10 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-<form>
+<form action="/produtos" method="POST">
     <div>
-        <label></label>
+        <label for="titulo">Titulo</label>
+        <input type="text" name="titulo" id="titulo" placeholder="Coloque o título do livro" />
     </div>
+    <div>
+        <label for="preco">Preço</label>
+        <input type="text" name="preco" id="preco" placeholder="19.99" />
+    </div>
+    <div>
+        <label for="descricao">Descrição</label>
+        <textarea cols="20" rows="10" id="descricao" name="descricao" placeholder="descrição do livro"></textarea>
+    </div>
+    <input type="submit" value="gravar">
 </form>
 
 </body>

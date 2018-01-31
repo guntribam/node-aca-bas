@@ -4,7 +4,7 @@ const createDBConnection = () =>
     mysql.createConnection({
         host:'localhost',
         user:'root',
-        password:'',
+        password:'root',
         database:'node-aca-bas'
     });
 
